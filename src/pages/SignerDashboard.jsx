@@ -143,9 +143,9 @@ export default function SignerDashboard() {
                   : null}
               </p>
               {/* <p title={user?.email || "No email"}>{user?.name || "User"}</p> */}
-              <div className="absolute top-8 p-0.5 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gray-800 text-white text-sm px-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10 pointer-events-none">
+{/*               <div className="absolute top-8 p-0.5 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gray-800 text-white text-sm px-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10 pointer-events-none">
                 {user?.email || "No email"}
-              </div>
+              </div> */}
             </div>
 
             <button
